@@ -1,0 +1,19 @@
+.nav{
+    display: block;
+    height: 30px;
+    padding: 20px; 
+}
+
+.link {
+    color: rgba(29, 29, 29, 0.856);
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 40px; 
+  }
+  .link:global(.active) {
+    color: #9b0808;
+    font-weight: 700;
+    
+  }
