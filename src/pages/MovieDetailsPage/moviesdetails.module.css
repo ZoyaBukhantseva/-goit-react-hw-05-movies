@@ -1,0 +1,87 @@
+.movieCard{
+    display: block;
+
+    padding: 0px;
+    margin: 0px;
+    padding: 10px 20px 20px 20px;
+    box-shadow:  2px 2px 1px gray;
+}
+
+.mainInfo {
+    display: flex;
+    min-width: 45vw;
+    flex-direction: row;
+    padding: 10px;
+    outline: 1px solid black;
+}
+
+.leftInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 45vw;
+    
+}
+
+.poster{
+    display: block;
+    width: 200px;
+    overflow: hidden;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.category{
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 20px;
+   
+}
+
+.overview{
+    font-size: 14px;
+    padding-left: 20px;
+    
+}
+
+.genresList {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 10px;
+    list-style: none;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.aditional{
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 20px;
+    }
+.aditionalul {
+        border-bottom: 1px black solid;
+        padding-bottom: 20px;
+        list-style: none;
+       
+    }
+.aditionallink{
+       
+        text-decoration: none;
+        color: black;
+    }
+.movieBackButton {
+    display: block;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    text-decoration: none;
+    outline: 1px solid black;
+    color: black;
+}

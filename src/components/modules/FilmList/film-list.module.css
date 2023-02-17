@@ -1,0 +1,17 @@
+.filmlist {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   
+}
+.filmitem{
+    list-style:none;
+}
+.filmlink{
+    text-decoration: none;
+    color: #000;
+}
+.filmlisttitle{
+   font-size: 44px;
+   padding-left: 40px;
+   color:#000}

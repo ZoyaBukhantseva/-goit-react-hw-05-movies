@@ -1,0 +1,12 @@
+.castCard {
+    display:flex;
+    flex-direction: row;
+    gap: 30px
+}
+
+
+
+.castImg{
+    width: 70px;
+    overflow: hidden;
+}

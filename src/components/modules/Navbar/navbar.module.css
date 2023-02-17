@@ -1,19 +1,25 @@
 .nav{
     display: block;
     height: 30px;
-    padding: 20px; 
+    padding: 20px 20px 20px 0px;
 }
 
 .link {
-    color: rgba(29, 29, 29, 0.856);
+    color: #000;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 34px;
     padding: 0px;
-    margin: 0px;
-    margin-left: 40px; 
+    margin: 0px 40px;
+  
   }
   .link:global(.active) {
     color: #9b0808;
     font-weight: 700;
+    box-shadow: #fff 4px;
     
+  }
+  .wrapper{
+    background-color: aliceblue;
+    border:  solid 1px #fff;
+
   }

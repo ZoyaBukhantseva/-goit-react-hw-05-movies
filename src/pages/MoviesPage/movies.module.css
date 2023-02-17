@@ -1,0 +1,6 @@
+.form{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
