@@ -26,8 +26,8 @@ const MoviesPage = () => {
     return(
         <>
         <form className={ s.form } onSubmit={ hendleSubmit }>
-            <input type="text" name="searchWord" defaultValue={ queryFilm }/>
-            <button type="submit">Search</button>
+            <input className={ s.input } placeholder="enter movie name" type="text" name="searchWord" defaultValue={ queryFilm }/>
+            <button className={ s.button }  type="submit">Search</button>
         </form>
          <Suspense fallback={ <Loader/> }>
              <FilmList films={ fdFilms }/>

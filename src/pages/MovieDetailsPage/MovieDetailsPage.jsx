@@ -30,7 +30,7 @@ const MovieDetails = () => {
 
     return (
         <>
-        <Link to={ backLink } className={ s.movieBackButton }>{`<-`} Go Back</Link>
+       
         <div className={ s.movieCard }>
             <div className={ s.mainInfo }>
                 <img src={ img } alt={ movie.title } className={ s.poster }/>
@@ -54,6 +54,7 @@ const MovieDetails = () => {
             <div className={ s.linkInfo }>
                 <Outlet/>
             </div>
+            <Link to={ backLink } className={ s.movieBackButton }>{`<-`} Go Back</Link>
         </div>
         </>
     )

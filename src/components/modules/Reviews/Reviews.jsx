@@ -13,15 +13,16 @@ const Reviews = () => {
     },[movieId]);
 
     return (
-        <ul className={ s.listrev }>
+        <ul className ={s.listrev}>
             { reviews.length > 0 ? 
-              reviews.map((element)=>{ return <li key={ nanoid() }>
+              reviews.map((element)=>{ return <li  key={ nanoid() }>
               <p className={ s.revAuth }>{`Autor: ${ element.author }`}</p>
               <p>{ element.content }</p>
               </li>}) :
               <li>There are no reviews.</li>
             } 
         </ul>
+
     )
 };
 

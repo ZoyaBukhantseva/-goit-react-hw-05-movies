@@ -4,11 +4,13 @@
 
    
 }
-.listrevli{
+/* .listrevli{
     padding: 10px;
 
     
-}
+} */
 .revAuth{
     font-weight: 700;
+    list-style: none;
+    color: brown;
 }
