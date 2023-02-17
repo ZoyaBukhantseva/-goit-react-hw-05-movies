@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/84.fcc78781.chunk.css","mappings":"AAAA,SACI,eAAgB,CAChB,SAGJ,CACA,WACI,YAGJ,CACA,SACI,eACJ","sources":["components/modules/Reviews/reviews.modile.css"],"sourcesContent":[".listrev {\n    list-style: none;\n    padding: 0px;\n\n   \n}\n.listrevli{\n    padding: 10px;\n\n    \n}\n.revAuth{\n    font-weight: 700;\n}\n"],"names":[],"sourceRoot":""}
